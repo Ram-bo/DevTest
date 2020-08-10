@@ -7,7 +7,7 @@ namespace DeveloperTest.Controllers
     [ApiController, Route("[controller]")]
     public class EngineerController : ControllerBase
     {
-        private static readonly string[] Engineers = { "Ashley", "Dave", "Kalina" };
+        private static readonly string[] Engineers = { "Satya Nadella", "Jeff Bezos" };
 
         private readonly ILogger<EngineerController> _logger;
 
@@ -21,5 +21,6 @@ namespace DeveloperTest.Controllers
         {
             return Engineers;
         }
+		
     }
 }
